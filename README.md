@@ -66,7 +66,7 @@ is_not_zero == true; // true
 위에 동의한다면, 다음과 같이 간결한 제네레이터 순회 설계가 가능하다.
 
 ```javascript
-let g: Generator[Number] = makeNumberGenerator();
+let g: Generator<Number> = makeNumberGenerator();
 
 while ((const a): Generator.Value<Number, null>:
 (g): Generator.Next<Number> = g)
