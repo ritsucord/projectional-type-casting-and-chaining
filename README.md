@@ -68,10 +68,10 @@ is_not_zero == true; // true
 ```javascript
 let g: Generator[Number] = makeNumberGenerator();
 
-while ((const a): Generator.Value[Number, null]:
-(g): Generator.Next[Number] = g)
+while ((const a): Generator.Value<Number, null>:
+(g): Generator.Next<Number> = g)
 // if there is nothing as value,
-// 'Generator.Value[Number, null]' returns null,
+// 'Generator.Value<Number, null>' returns null,
 // hence suspending while loop.
 	console.log(a);
 ```
